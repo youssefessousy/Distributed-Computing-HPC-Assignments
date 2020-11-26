@@ -8,11 +8,10 @@ Created on Thu Nov 26 14:59:24 2020
 
 import numpy
 from matplotlib import pyplot, cm
-from numba import njit
 from mpl_toolkits.mplot3d import Axes3D
 import time 
 
-@njit(fastmath=True)
+
 def solve_2d_Poisson():
     nx = 150
     ny = 150
